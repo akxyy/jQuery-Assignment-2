@@ -5,7 +5,7 @@ ul {
 #container {
     margin: auto;
     text-align: center;
-    background-color:#9cc3d5ff;
+    background-color:#9CD3D9;
     width: 400px;
     height: 550px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
@@ -16,44 +16,46 @@ ul {
     padding-top: 30px;
 }
 
-.task-filters button{
-    background-color:darkseagreen ;
+.task-filters button {
+    background-color: #F2F2F2;
     border: none;
     border-radius: 5px;
     margin-top: 20px;
+    height: 30px;
 }
 
-#task-input{
-    height: 30px;
+#task-input {
+    height: 35px;
     width: 300px;
 }
 
-#add-button{
-    position:relative;
-    background-color:darkseagreen;
+#add-button {
+    position: relative;
+    background-color: #F2F2F2;
     border: none;
     border-radius: 5px;
+    height: 30px;
 }
 
-#input{
+#input {
     height: 55px;
 }
 
-input::placeholder{
-    padding-left:5px;
+input::placeholder {
+    padding-left: 5px;
 }
 
-#task-input{
+#task-input {
     border-radius: 5px;
     border: none;
     padding-left: 10px;
 }
 
-li.completed #taskName{
+li.completed #taskName {
     text-decoration: line-through;
 }
 
-li button{
+li button {
     border: none;
-    margin-left:10px;
+    margin-left: 10px;
 }
